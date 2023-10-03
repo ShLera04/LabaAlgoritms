@@ -20,6 +20,8 @@ D_Heap :: ~D_Heap()
     //delete[] name;
     delete[] index;
 }
+
+
 int D_Heap::first_child(int i) {
     int k = i * d + 1;
     if (k > (currentsize-1))
